@@ -65,8 +65,8 @@ public class TasksCompleteView extends View {
         super(context, attrs);
 
         bitmap = BitmapFactory.decodeResource(context.getResources(),R.drawable.btn_stop);
-        imgWidth = bitmap.getWidth();
-        imgHeight = bitmap.getHeight();
+        imgWidth = bitmap.getWidth() + 20;
+        imgHeight = bitmap.getHeight() + 20;
         //初始化属性
         initAttrs(context,attrs);
 

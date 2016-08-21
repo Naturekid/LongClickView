@@ -98,7 +98,7 @@ public class LongClickStopActivity extends AppCompatActivity {
             Log.w("", "isFmActive: couldn't get AudioManager reference");
             return false;
         }
-        return am.isFmActive();
+        return am.isMusicActive();
     }
 
 
